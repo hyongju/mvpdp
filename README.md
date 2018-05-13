@@ -18,8 +18,8 @@ Give the example
 
 ## Authors
 
-* **Hyongju Park** - *Initial work*
-* **Jinsun Liu** - *Initial work*
+* **Hyongju Park** 
+* **Jinsun Liu**
 
 
 ## License
