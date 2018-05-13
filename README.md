@@ -28,3 +28,8 @@ See run.m in each folder to learn more detail on its contents
 ### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+
+### Acknowledgement
+
+* plot_google_map.m (https://github.com/hyongju/plot_google_map) was used in some part of the code
