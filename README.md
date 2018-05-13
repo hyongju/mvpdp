@@ -1,11 +1,11 @@
 One Paragraph of project description goes here
 
 
-### Prerequisites
+## Prerequisites
 
-MATLAB R2017a
-CPLEX 12.7
-YALMIP R20171121
+* MATLAB R2017a
+* CPLEX 12.7
+* YALMIP R20171121
 
 
 
