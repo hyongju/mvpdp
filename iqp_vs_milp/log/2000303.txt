@@ -1,0 +1,140 @@
+
+MOSEK Version 8.0.0.51 (Build date: 2016-12-14 12:53:47)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: Linux/64-X86
+
+MOSEK warning 710: #39 (nearly) zero elements are specified in sparse col '' (40) of matrix 'A'.
+MOSEK warning 710: #38 (nearly) zero elements are specified in sparse col '' (41) of matrix 'A'.
+MOSEK warning 710: #37 (nearly) zero elements are specified in sparse col '' (42) of matrix 'A'.
+MOSEK warning 710: #36 (nearly) zero elements are specified in sparse col '' (43) of matrix 'A'.
+MOSEK warning 710: #35 (nearly) zero elements are specified in sparse col '' (44) of matrix 'A'.
+MOSEK warning 710: #34 (nearly) zero elements are specified in sparse col '' (45) of matrix 'A'.
+MOSEK warning 710: #33 (nearly) zero elements are specified in sparse col '' (46) of matrix 'A'.
+MOSEK warning 710: #32 (nearly) zero elements are specified in sparse col '' (47) of matrix 'A'.
+MOSEK warning 710: #31 (nearly) zero elements are specified in sparse col '' (48) of matrix 'A'.
+MOSEK warning 710: #30 (nearly) zero elements are specified in sparse col '' (49) of matrix 'A'.
+Warning number 710 is disabled.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 4938            
+  Cones                  : 1               
+  Scalar variables       : 3203            
+  Matrix variables       : 0               
+  Integer variables      : 1600            
+
+Optimizer started.
+Mixed integer optimizer started.
+Threads used: 72
+Presolve started.
+Presolve terminated. Time = 7.44
+Presolved problem: 3183 variables, 1737 constraints, 100892 non-zeros
+Presolved problem: 0 general integer, 1581 binary, 1602 continuous
+Clique table size: 267
+BRANCHES RELAXS   ACT_NDS  DEPTH    BEST_INT_OBJ         BEST_RELAX_OBJ       REL_GAP(%)  TIME  
+0        1        0        0        NA                   9.0536521072e+01     NA          14.1  
+Cut generation started.
+0        2        0        0        NA                   9.0536521072e+01     NA          41.3  
+Cut generation terminated. Time = 7.12
+12       14       11       2        NA                   9.0683609383e+01     NA          67.7  
+33       36       26       2        NA                   9.0808134079e+01     NA          101.4 
+53       56       36       2        NA                   9.0808522822e+01     NA          111.3 
+77       81       58       2        NA                   9.0847530250e+01     NA          123.5 
+119      123      88       2        NA                   9.0909326328e+01     NA          135.0 
+175      180      132      2        NA                   9.0909326328e+01     NA          153.4 
+225      236      170      2        NA                   9.0956642303e+01     NA          169.5 
+339      360      256      9        NA                   9.1142998511e+01     NA          197.7 
+553      596      444      13       NA                   9.1142998511e+01     NA          230.6 
+985      1020     694      16       NA                   9.1280398777e+01     NA          292.2 
+1633     1593     956      23       NA                   9.1280398777e+01     NA          385.6 
+2569     2406     1334     33       NA                   9.1280398777e+01     NA          473.3 
+3865     3538     1778     23       NA                   9.1280398777e+01     NA          596.2 
+5587     5211     2690     35       NA                   9.1280398777e+01     NA          752.7 
+7702     7170     3825     58       NA                   9.1443130158e+01     NA          938.3 
+9669     9128     5256     42       NA                   9.1454831498e+01     NA          1103.6
+11750    11084    6537     56       NA                   9.1563682851e+01     NA          1273.3
+13758    13034    7983     62       NA                   9.1820408379e+01     NA          1448.7
+15728    14983    9293     38       NA                   9.1830573302e+01     NA          1600.9
+17776    16943    10487    74       NA                   9.2228432809e+01     NA          1754.5
+19782    18897    11797    99       NA                   9.2371415033e+01     NA          1901.4
+21737    20850    13180    106      NA                   9.2371415033e+01     NA          2052.5
+23701    22805    14614    113      NA                   9.2843777647e+01     NA          2214.0
+25701    24754    15940    127      NA                   9.2921407514e+01     NA          2368.8
+27686    26710    17273    152      NA                   9.2921407514e+01     NA          2537.2
+29609    28660    18818    85       NA                   9.4155834756e+01     NA          2698.5
+31574    30605    20227    93       NA                   9.4155834756e+01     NA          2843.0
+33701    32539    21326    113      NA                   9.4155834756e+01     NA          2986.4
+35673    34492    22602    114      NA                   9.8634770450e+01     NA          3142.2
+37569    36421    24010    113      NA                   1.0533296182e+02     NA          3297.6
+39442    38301    25449    116      NA                   1.0533851397e+02     NA          3455.3
+41400    40244    26847    82       NA                   1.0533851397e+02     NA          3607.3
+43345    42210    28150    174      NA                   1.0545886582e+02     NA          3752.0
+45344    44146    29371    194      NA                   1.0545886582e+02     NA          3868.4
+47338    46085    30693    81       NA                   1.0579218839e+02     NA          3982.2
+49295    48014    32050    134      NA                   1.0616954638e+02     NA          4110.0
+51225    49961    33368    183      NA                   1.0618922113e+02     NA          4230.2
+53167    51894    34710    200      NA                   1.0668725029e+02     NA          4334.0
+55181    53844    36048    223      NA                   1.0682914369e+02     NA          4441.8
+57193    55781    37240    238      NA                   1.0689318389e+02     NA          4555.8
+59187    57723    38580    40       NA                   1.0703891971e+02     NA          4660.3
+61152    59675    39879    143      NA                   1.0729876258e+02     NA          4763.1
+63166    61608    41131    243      NA                   1.0764021748e+02     NA          4869.9
+65154    63543    42377    36       NA                   1.0764398624e+02     NA          4990.4
+67133    65479    43682    102      NA                   1.0764398624e+02     NA          5125.4
+69106    67411    44931    120      NA                   1.0833816895e+02     NA          5267.4
+71160    69344    46193    248      NA                   1.0856009755e+02     NA          5396.7
+73161    71277    47480    264      NA                   1.0880854934e+02     NA          5512.9
+75160    73159    48779    280      NA                   1.0880854934e+02     NA          5627.2
+77217    75087    50000    300      NA                   1.0965868911e+02     NA          5732.2
+79269    77020    51154    137      NA                   1.0965868911e+02     NA          5854.0
+81228    78961    52461    325      NA                   1.1032092885e+02     NA          5995.7
+83237    80901    53722    344      NA                   1.1076691985e+02     NA          6106.9
+85225    82835    54900    81       NA                   1.1080275627e+02     NA          6196.5
+87261    84778    56188    346      NA                   1.1080275627e+02     NA          6287.4
+89304    86711    57437    401      NA                   1.1256007625e+02     NA          6373.5
+91436    88656    58535    421      NA                   1.1275680557e+02     NA          6451.2
+93491    90596    59722    94       NA                   1.1275680557e+02     NA          6529.0
+95484    92535    61093    131      NA                   1.1313621690e+02     NA          6623.0
+97496    94466    62415    152      NA                   1.1583356655e+02     NA          6745.7
+99587    96405    63568    159      NA                   1.1688803551e+02     NA          6852.3
+101593   98333    64726    93       NA                   1.1700504262e+02     NA          6956.5
+103595   100266   66126    132      NA                   1.1700504262e+02     NA          7072.6
+105624   102187   67451    187      NA                   1.1707363548e+02     NA          7144.0
+
+Objective of best integer solution : Not available.
+Best objective bound               : 1.170736354849e+02      
+Construct solution objective       : Not employed
+Construct solution # roundings     : 0
+User objective cut value           : 0
+Number of cuts generated           : 0
+Number of branches                 : 105624
+Number of relaxations solved       : 102187
+Number of interior point iterations: 1716987
+Number of simplex iterations       : 0
+Time spend presolving the root     : 7.44
+Time spend in the heuristic        : 0.00
+Time spend in the sub optimizers   : 0.00
+  Time spend optimizing the root   : 6.57
+Mixed integer optimizer terminated. Time: 7200.35
+
+Optimizer terminated. Time: 7200.43 
+
+Integer solution solution summary
+  Problem status  : UNKNOWN
+  Solution status : UNKNOWN
+  Primal.  obj: 0.0000000000e+00    nrm: 0e+00    Viol.  con: 2e+01    var: 0e+00    cones: 0e+00    itg: 0e+00  
+Optimizer summary
+  Optimizer                 -                        time: 7200.43 
+    Interior-point          - iterations : 0         time: 0.00    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 102187    time: 7200.35 
+
+Mosek error: MSK_RES_TRM_MAX_TIME (No dual information is available for the integer solution.)

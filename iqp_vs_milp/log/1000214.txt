@@ -1,0 +1,75 @@
+
+MATLAB/BARON Interface Version: v1.82 [28-October-2016]
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Jinsun Liu at University of Michigan, jinsunl@umich.edu.
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Solving bounding LP
+ Starting multi-start local search
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+          1+            1            30.30     162.287         0.100000E+52
+          1+            1            59.87     162.287         0.100000E+52
+*         1             1            72.74     162.287          168.938    
+          1             1            73.26     162.939          168.938    
+          2+            2           102.96     162.939          168.938    
+          2+            2           132.64     162.939          168.938    
+          2+            2           162.03     162.939          168.938    
+          3+            2           190.42     162.939          168.938    
+          3+            2           218.82     162.939          168.938    
+          3+            2           247.38     162.939          168.938    
+          3+            2           275.89     162.939          168.938    
+          4+            3           304.39     162.943          168.938    
+          4+            3           333.48     162.943          168.938    
+          4+            3           360.20     162.943          168.938    
+          4+            3           386.30     162.943          168.938    
+          5+            4           413.48     162.943          168.938    
+          5+            4           437.01     162.943          168.938    
+          5+            4           461.56     162.943          168.938    
+          5+            4           488.66     162.943          168.938    
+          6+            3           518.00     162.943          168.938    
+          6+            3           547.81     162.943          168.938    
+          6+            3           576.82     162.943          168.938    
+          7+            2           606.06     162.943          168.938    
+          7+            2           635.90     162.943          168.938    
+          7+            2           664.29     162.943          168.938    
+          8+            2           693.24     162.988          168.938    
+          8+            2           722.16     162.988          168.938    
+          8+            2           748.94     162.988          168.938    
+          8+            2           777.71     162.988          168.938    
+          9+            1           806.92     162.988          168.938    
+          9+            1           835.73     162.988          168.938    
+          9+            1           865.57     162.988          168.938    
+          9             0           889.83     163.028          168.938    
+
+ Cleaning up
+
+                         *** Normal completion ***            
+
+ Wall clock time:                   940.41
+ Total CPU time used:               889.83
+
+ Total no. of BaR iterations:       9
+ Best solution found at node:       1
+ Max. no. of nodes in memory:       4
+ 
+ All done
+===========================================================================

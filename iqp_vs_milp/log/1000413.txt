@@ -1,0 +1,81 @@
+
+MOSEK Version 8.0.0.51 (Build date: 2016-12-14 12:53:47)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: Linux/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 2200            
+  Cones                  : 0               
+  Scalar variables       : 465             
+  Matrix variables       : 0               
+  Integer variables      : 421             
+
+Optimizer started.
+Mixed integer optimizer started.
+Threads used: 72
+Presolve started.
+Presolve terminated. Time = 0.07
+Presolved problem: 464 variables, 1135 constraints, 4090 non-zeros
+Presolved problem: 0 general integer, 421 binary, 43 continuous
+Clique table size: 42
+BRANCHES RELAXS   ACT_NDS  DEPTH    BEST_INT_OBJ         BEST_RELAX_OBJ       REL_GAP(%)  TIME  
+0        1        0        0        NA                   1.6762735442e+02     NA          0.2   
+Cut generation started.
+0        2        0        0        NA                   1.6762735442e+02     NA          0.3   
+0        3        0        0        NA                   1.6787983354e+02     NA          0.3   
+Cut generation terminated. Time = 0.04
+15       19       14       3        NA                   1.6799954932e+02     NA          0.5   
+28       32       27       4        NA                   1.6800220448e+02     NA          0.6   
+54       58       51       5        NA                   1.6801578736e+02     NA          0.6   
+103      107      100      6        NA                   1.6807007351e+02     NA          0.7   
+173      177      168      7        NA                   1.6807007351e+02     NA          0.8   
+317      320      306      7        NA                   1.6816203624e+02     NA          1.0   
+605      608      572      11       NA                   1.6817257728e+02     NA          1.2   
+1109     1110     984      17       NA                   1.6821420549e+02     NA          1.3   
+2045     2026     1426     13       NA                   1.6821420549e+02     NA          1.5   
+3383     3352     2388     19       NA                   1.6831498932e+02     NA          1.8   
+5008     4953     3411     16       NA                   1.6853166597e+02     NA          2.1   
+6620     6543     4503     27       1.7241753463e+02     1.6858954491e+02     2.22        2.4   
+An optimal solution satisfying the relative gap tolerance of 3.50e+00(%) has been located.
+The relative gap is 2.22e+00(%).
+
+Objective of best integer solution : 1.724175346291e+02      
+Best objective bound               : 1.685895449100e+02      
+Construct solution objective       : Not employed
+Construct solution # roundings     : 0
+User objective cut value           : 0
+Number of cuts generated           : 62
+  Number of Gomory cuts            : 27
+  Number of CMIR cuts              : 35
+Number of branches                 : 6620
+Number of relaxations solved       : 6543
+Number of interior point iterations: 24
+Number of simplex iterations       : 176196
+Time spend presolving the root     : 0.07
+Time spend in the heuristic        : 0.00
+Time spend in the sub optimizers   : 0.00
+  Time spend optimizing the root   : 0.13
+Mixed integer optimizer terminated. Time: 2.41
+
+Optimizer terminated. Time: 2.44    
+
+Integer solution solution summary
+  Problem status  : PRIMAL_FEASIBLE
+  Solution status : INTEGER_OPTIMAL
+  Primal.  obj: 1.7241753463e+02    nrm: 1e+04    Viol.  con: 2e-12    var: 0e+00    itg: 0e+00  
+Optimizer summary
+  Optimizer                 -                        time: 2.44    
+    Interior-point          - iterations : 0         time: 0.00    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 6543      time: 2.41    
+

@@ -1,0 +1,163 @@
+ 
+Reading Problem xprsmip
+Problem Statistics
+         896 (      0 spare) rows
+         309 (      0 spare) structural columns
+        2925 (      0 spare) non-zero elements
+Global Statistics
+         273 entities        0 sets        0 set members
+Minimizing MILP xprsmip
+Original problem has:
+       896 rows          309 cols         2925 elements       273 globals
+Presolved problem has:
+       732 rows          307 cols         2616 elements       273 globals
+LP relaxation tightened
+Will try to keep branch and bound tree memory usage below 955.3Gb
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  101.70487   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 97 simplex iterations, 0.00s
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+    97        101.704873      P      0     0        .000000     0
+Dual solved problem
+  97 simplex iterations in 0s
+
+Final objective                         : 1.017048731863111e+02
+  Max primal violation      (abs / rel) : 2.220e-16 / 1.819e-16
+  Max dual violation        (abs / rel) : 2.776e-17 / 2.776e-17
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                 101.801852      0     70      0               36      0
+   2  K                 102.027211      0    109     54               40      0
+   3  K                 102.027211      0     10     94               40      0
+   4  K                 102.027211      0      0     10               36      0
+   5  G                 102.027211      0     20      0               36      0
+   6  G                 102.049794      0     15     19               38      0
+   7  G                 102.107397      0     43     19               36      0
+   8  G                 102.149489      0     37     40               41      0
+   9  G                 102.162053      0     39     69               44      0
+Heuristic search started
+Heuristic search stopped
+ 
+Cuts in the matrix         : 38
+Cut elements in the matrix : 1263
+ 
+Starting tree search.
+Deterministic mode with up to 144 running threads and up to 256 tasks.
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1                102.163872      0      2      1               43      0
+       2                102.163872      0      3      3               36      0
+       3                102.163872      0      4      3               31      0
+       4                102.163872      0      5      4               34      1
+       5                102.163872      0      6      4               33      1
+       6                102.163872      0      6      4               41      1
+       7                102.163872      0      7      4               31      1
+       8                102.163872      0      8      5               29      1
+       9                102.163872      0      9      5               41      1
+      10                102.163872      0     10      5               33      1
+      20                102.163873      0     20      6               27      1
+      30                102.163873      0     28     11               34      1
+      40                102.163873      0     35      7               18      1
+      50                102.163873      0     42      8               26      1
+      60                102.163873      0     48      8               26      1
+      71                102.163873      0     56      8               31      1
+      82                102.163878      0     62      8               30      1
+      92                102.163878      0     71     12               20      1
+     102                102.163878      0     78      7               32      1
+B&B tree size: 1.4Mb total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     202                102.163878      0    157     15               29      1
+     302                102.163878      0    244     16               29      2
+     404                102.163878      0    337     11               32      2
+     505                102.163878      0    429     14               13      2
+     605                102.163878      0    523     19               28      2
+     705                102.163878      0    624     21               16      2
+     805                102.163878      0    708     18               23      2
+     905                102.163878      0    796     29               22      2
+    1005                102.163878      0    892     22               28      2
+    1105                102.163878      0    985     27                8      2
+    1205                102.163878      0   1075     26               30      2
+    1305                102.163878      0   1158     31               17      2
+    1405                102.163878      0   1245     29               23      2
+    1505                102.163878      0   1325     40               25      2
+    1605                102.163878      0   1404     36               17      2
+    1706                102.163878      0   1474     26               34      2
+    1806                102.163927      0   1557     43                9      2
+    1908                102.163927      0   1632     28               20      3
+    2008                102.163927      0   1703     50               10      3
+    2121                102.163927      0   1771     45               26      3
+B&B tree size: 5.2Mb total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    2231                102.163927      0   1839     47               20      3
+    2335                102.163927      0   1925     22                8      3
+    2438                102.163927      0   1989     45               15      3
+    2538                102.163927      0   2037     25               21      4
+    2654                102.163927      0   2147     28                4      4
+    2754                102.163927      0   2202     47               24      4
+    2854                102.163927      0   2268     50                8      4
+    2966                102.163927      0   2333     37               15      4
+    3066                102.163927      0   2414     35               15      4
+    3168                102.163927      0   2472     56                7      4
+    3271                102.163927      0   2540     36                8      4
+    3372                102.163927      0   2609     61               20      4
+    3473                102.163927      0   2674     33               18      5
+    3574                102.163927      0   2732     34               16      5
+    3684                102.163927      0   2784     49               17      5
+    3799                102.163927      0   2871     57               25      5
+    3899                102.163927      0   2912     40                6      5
+    4011                102.163927      0   2949     29                8      5
+    4122                102.163927      0   3030     38                9      5
+    4222                102.163927      0   3103     32               10      5
+B&B tree size: 11Mb total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    4323                102.163927      0   3171     28               11      5
+    4429                102.163927      0   3216     32                4      6
+    4531                102.163927      0   3262     30               10      6
+    4636                102.163927      0   3319     35               11      6
+    4746                102.163927      0   3366     54                6      6
+    4853                102.163927      0   3413     34                4      6
+    4955                102.163927      0   3465     42                4      6
+    5056                102.163927      0   3517     40               10      6
+    5166                102.163927      0   3568     27                4      6
+    5278                102.163927      0   3627     27                8      6
+    5382                102.163927      0   3664     71               10      6
+    5482                102.163927      0   3731     74               17      6
+    5583                102.163927      0   3785     43               17      6
+    5683                102.163927      0   3848     28                4      6
+    5786                102.163927      0   3898     27                8      6
+    5889                102.163927      0   3947     36                9      6
+    5989                102.163927      0   3997     44                8      6
+    6091                102.163927      0   4065     48               15      6
+    6194                102.163927      0   4139     56                8      6
+    6297                102.163927      0   4180     36               10      6
+B&B tree size: 14Mb total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+    6403                102.163927      0   4225     29                6      6
+    6503                102.163927      0   4268     38               11      6
+a   6524   107.203411   102.163927      1   4277     56    4.70%       0      6
+    6616   107.203411   102.163927      1   4304     35    4.70%       8      6
+    6728   107.203411   102.163927      1   4375     35    4.70%      19      6
+    6836   107.203411   102.174775      1   4442     36    4.69%      12      6
+*   6890   105.829787   102.174775      2   4468     55    3.45%       0      6
+STOPPING - MIPRELSTOP target reached (MIPRELSTOP=0.035  gap=0.0345367).
+ *** Search completed ***     Time:     6 Nodes:       6891
+Number of integer feasible solutions found is 2
+Best integer solution found is   105.829787
+Best bound is   102.174775
+Uncrunching matrix

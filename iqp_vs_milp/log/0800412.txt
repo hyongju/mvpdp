@@ -1,0 +1,46 @@
+Optimize a model with 896 rows, 309 columns and 2925 nonzeros
+Variable types: 36 continuous, 273 integer (273 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [4e-02, 1e+00]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+04]
+Presolve removed 188 rows and 10 columns
+Presolve time: 0.01s
+Presolved: 708 rows, 299 columns, 5059 nonzeros
+Variable types: 34 continuous, 265 integer (265 binary)
+
+Root relaxation: objective 8.542468e+01, 114 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0   85.42468    0   42          -   85.42468      -     -    0s
+     0     0   85.56496    0   53          -   85.56496      -     -    0s
+     0     0   85.64599    0   53          -   85.64599      -     -    0s
+     0     0   85.85192    0   50          -   85.85192      -     -    0s
+     0     0   85.99286    0   45          -   85.99286      -     -    0s
+     0     0   86.13164    0   32          -   86.13164      -     -    0s
+     0     0   86.13302    0   39          -   86.13302      -     -    0s
+     0     0   86.13436    0   34          -   86.13436      -     -    0s
+     0     0   86.13512    0   40          -   86.13512      -     -    0s
+     0     0   86.13547    0   38          -   86.13547      -     -    0s
+     0     0   86.13547    0   38          -   86.13547      -     -    0s
+     0     2   86.13547    0   38          -   86.13547      -     -    0s
+*43774 25806              59      87.9872226   86.39355  1.81%   8.4    4s
+
+Cutting planes:
+  Learned: 3
+  Gomory: 8
+  Implied bound: 6
+  MIR: 1
+  Flow cover: 7
+
+Explored 44183 nodes (404466 simplex iterations) in 4.47 seconds
+Thread count was 32 (of 144 available processors)
+
+Solution count 1: 87.9872 
+Pool objective bound 86.3936
+
+Optimal solution found (tolerance 3.50e-02)
+Best objective 8.798722262380e+01, best bound 8.639355410959e+01, gap 1.8112%

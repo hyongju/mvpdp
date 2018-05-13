@@ -1,0 +1,98 @@
+
+MATLAB/BARON Interface Version: v1.82 [28-October-2016]
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Jinsun Liu at University of Michigan, jinsunl@umich.edu.
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Solving bounding LP
+ Starting multi-start local search
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+          1+            1            29.44     172.626         0.100000E+52
+          1+            1            58.78     172.626         0.100000E+52
+          1             1            67.85     173.837         0.100000E+52
+          2+            2            96.64     173.837         0.100000E+52
+          2+            2           125.18     173.837         0.100000E+52
+          3+            2           154.51     173.837         0.100000E+52
+          3+            2           183.31     173.837         0.100000E+52
+          4+            3           212.78     173.903         0.100000E+52
+          4+            3           241.51     173.903         0.100000E+52
+          5+            3           270.85     173.903         0.100000E+52
+          5+            3           299.84     173.903         0.100000E+52
+          6+            4           329.50     173.914         0.100000E+52
+          6+            4           358.04     173.914         0.100000E+52
+          7+            5           385.80     173.914         0.100000E+52
+          7+            5           412.32     173.914         0.100000E+52
+          7+            5           438.95     173.914         0.100000E+52
+          8+            6           465.54     173.914         0.100000E+52
+          8+            6           492.88     173.914         0.100000E+52
+          9+            7           516.84     173.914         0.100000E+52
+          9+            7           540.12     173.914         0.100000E+52
+          9+            7           563.36     173.914         0.100000E+52
+         10+            8           587.59     173.914         0.100000E+52
+         10+            8           610.12     173.914         0.100000E+52
+         11+            9           633.85     173.914         0.100000E+52
+         11+            9           656.38     173.914         0.100000E+52
+         11+            9           680.49     173.914         0.100000E+52
+         12+           10           708.39     173.914         0.100000E+52
+         12+           10           733.87     173.914         0.100000E+52
+         13+           11           755.72     173.914         0.100000E+52
+         13+           11           778.51     173.914         0.100000E+52
+         13+           11           801.88     173.914         0.100000E+52
+         14+           12           821.21     173.914         0.100000E+52
+         14+           12           843.24     173.914         0.100000E+52
+         15+           13           865.02     173.914         0.100000E+52
+         15+           13           887.50     173.914         0.100000E+52
+         15+           13           908.29     173.914         0.100000E+52
+         16+           14           932.19     173.914         0.100000E+52
+         16+           14           955.07     173.914         0.100000E+52
+         16+           14           979.00     173.914         0.100000E+52
+         17+           14           997.54     173.914         0.100000E+52
+         17+           14          1018.96     173.914         0.100000E+52
+         17+           14          1040.59     173.914         0.100000E+52
+         18+           14          1062.39     173.914         0.100000E+52
+         18+           14          1084.43     173.914         0.100000E+52
+         18+           14          1105.60     173.914         0.100000E+52
+         18+           14          1130.61     173.914         0.100000E+52
+         19+           14          1156.38     173.914         0.100000E+52
+         19+           14          1179.62     173.914         0.100000E+52
+         19+           14          1203.19     173.914         0.100000E+52
+         20+           15          1222.92     173.914         0.100000E+52
+         20+           15          1245.66     173.914         0.100000E+52
+         20+           15          1269.16     173.914         0.100000E+52
+         20+           15          1292.48     173.914         0.100000E+52
+         21+           15          1314.83     173.914         0.100000E+52
+*        21             0          1323.80     173.914          177.775    
+         21             0          1323.81     173.914          177.775    
+
+ Cleaning up
+
+                         *** Normal completion ***            
+
+ Wall clock time:                  1614.67
+ Total CPU time used:              1323.81
+
+ Total no. of BaR iterations:      21
+ Best solution found at node:      21
+ Max. no. of nodes in memory:      15
+ 
+ All done
+===========================================================================

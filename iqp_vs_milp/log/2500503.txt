@@ -1,0 +1,111 @@
+
+MOSEK Version 8.0.0.51 (Build date: 2016-12-14 12:53:47)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: Linux/64-X86
+
+MOSEK warning 710: #49 (nearly) zero elements are specified in sparse col '' (50) of matrix 'A'.
+MOSEK warning 710: #48 (nearly) zero elements are specified in sparse col '' (51) of matrix 'A'.
+MOSEK warning 710: #47 (nearly) zero elements are specified in sparse col '' (52) of matrix 'A'.
+MOSEK warning 710: #46 (nearly) zero elements are specified in sparse col '' (53) of matrix 'A'.
+MOSEK warning 710: #45 (nearly) zero elements are specified in sparse col '' (54) of matrix 'A'.
+MOSEK warning 710: #44 (nearly) zero elements are specified in sparse col '' (55) of matrix 'A'.
+MOSEK warning 710: #43 (nearly) zero elements are specified in sparse col '' (56) of matrix 'A'.
+MOSEK warning 710: #42 (nearly) zero elements are specified in sparse col '' (57) of matrix 'A'.
+MOSEK warning 710: #41 (nearly) zero elements are specified in sparse col '' (58) of matrix 'A'.
+MOSEK warning 710: #40 (nearly) zero elements are specified in sparse col '' (59) of matrix 'A'.
+Warning number 710 is disabled.
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : CONIC (conic optimization problem)
+  Constraints            : 7673            
+  Cones                  : 1               
+  Scalar variables       : 5003            
+  Matrix variables       : 0               
+  Integer variables      : 2500            
+
+Optimizer started.
+Mixed integer optimizer started.
+Threads used: 72
+Presolve started.
+Presolve terminated. Time = 1.94
+Presolved problem: 4978 variables, 2672 constraints, 195177 non-zeros
+Presolved problem: 0 general integer, 2476 binary, 2502 continuous
+Clique table size: 209
+BRANCHES RELAXS   ACT_NDS  DEPTH    BEST_INT_OBJ         BEST_RELAX_OBJ       REL_GAP(%)  TIME  
+0        1        0        0        NA                   1.1701742808e+02     NA          4.1   
+Cut generation started.
+0        2        0        0        NA                   1.1702033781e+02     NA          24.9  
+Cut generation terminated. Time = 5.43
+15       20       16       3        NA                   1.1723013677e+02     NA          44.7  
+31       35       22       4        NA                   1.1728603613e+02     NA          52.7  
+48       51       23       4        NA                   1.1730906848e+02     NA          62.4  
+61       65       34       4        NA                   1.1734520725e+02     NA          73.3  
+81       86       50       4        NA                   1.1734520725e+02     NA          81.6  
+113      115      58       4        NA                   1.1740064069e+02     NA          92.9  
+144      144      71       4        NA                   1.1746969747e+02     NA          103.9 
+182      176      77       4        NA                   1.1747125267e+02     NA          113.0 
+222      221      93       4        NA                   1.1749171464e+02     NA          123.9 
+269      267      114      4        NA                   1.1749171464e+02     NA          138.6 
+313      313      134      4        NA                   1.1755399948e+02     NA          153.9 
+355      353      158      4        NA                   1.1763285500e+02     NA          168.3 
+453      444      222      10       NA                   1.1773247901e+02     NA          187.5 
+665      612      296      11       NA                   1.1777983963e+02     NA          216.6 
+951      844      420      17       NA                   1.1777983963e+02     NA          247.3 
+1311     1135     544      19       NA                   1.1802765807e+02     NA          299.0 
+1815     1570     666      24       NA                   1.1802765807e+02     NA          375.9 
+2463     2154     878      30       NA                   1.1802765807e+02     NA          464.5 
+3327     2888     1074     37       NA                   1.1802765807e+02     NA          584.3 
+4335     3808     1424     16       NA                   1.1802765807e+02     NA          698.6 
+5703     5007     1924     28       NA                   1.1802765807e+02     NA          861.3 
+7549     6645     2668     40       NA                   1.1802765807e+02     NA          1043.0
+9548     8542     3713     63       NA                   1.1818457851e+02     NA          1230.1
+11503    10445    4904     33       NA                   1.1818457851e+02     NA          1468.5
+13391    12342    6278     53       NA                   1.1831404890e+02     NA          1665.3
+15177    14243    7568     65       NA                   1.1841427955e+02     NA          1889.5
+16970    16126    8799     83       NA                   1.1841427955e+02     NA          2084.4
+18820    18020    10091    25       NA                   1.1875895959e+02     NA          2287.6
+20670    19908    11433    27       NA                   1.1882229154e+02     NA          2484.5
+22564    21807    12577    88       NA                   1.2378729165e+02     NA          2649.1
+24454    23695    13679    105      NA                   1.3450997638e+02     NA          2799.2
+26317    25595    14832    139      -nan                 -nan                 0.00e+00    2936.3
+An optimal solution satisfying the relative gap tolerance of 3.50e+00(%) has been located.
+The relative gap is 0.00e+00(%).
+An optimal solution satisfying the absolute gap tolerance of 0.00e+00 has been located.
+The absolute gap is 0.00e+00.
+
+Objective of best integer solution : -nan                    
+Best objective bound               : 1.345099763817e+02      
+Construct solution objective       : Not employed
+Construct solution # roundings     : 0
+User objective cut value           : 0
+Number of cuts generated           : 0
+Number of branches                 : 26317
+Number of relaxations solved       : 25595
+Number of interior point iterations: 456786
+Number of simplex iterations       : 0
+Time spend presolving the root     : 1.94
+Time spend in the heuristic        : 0.00
+Time spend in the sub optimizers   : 0.00
+  Time spend optimizing the root   : 2.09
+Mixed integer optimizer terminated. Time: 2936.44
+
+Optimizer terminated. Time: 2937.05 
+
+Integer solution solution summary
+  Problem status  : PRIMAL_FEASIBLE
+  Solution status : INTEGER_OPTIMAL
+  Primal.  obj: -nan                nrm: 1e+01    Viol.  con: 0e+00    var: 0e+00    cones: 0e+00    itg: 0e+00  
+Optimizer summary
+  Optimizer                 -                        time: 2937.05 
+    Interior-point          - iterations : 0         time: 0.00    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 25595     time: 2936.44 
+

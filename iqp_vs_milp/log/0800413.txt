@@ -1,0 +1,126 @@
+
+MOSEK Version 8.0.0.51 (Build date: 2016-12-14 12:53:47)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: Linux/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 1442            
+  Cones                  : 0               
+  Scalar variables       : 309             
+  Matrix variables       : 0               
+  Integer variables      : 273             
+
+Optimizer started.
+Mixed integer optimizer started.
+Threads used: 72
+Presolve started.
+Presolve terminated. Time = 0.02
+Presolved problem: 308 variables, 749 constraints, 2666 non-zeros
+Presolved problem: 0 general integer, 273 binary, 35 continuous
+Clique table size: 34
+BRANCHES RELAXS   ACT_NDS  DEPTH    BEST_INT_OBJ         BEST_RELAX_OBJ       REL_GAP(%)  TIME  
+0        1        0        0        NA                   8.5131558937e+01     NA          0.1   
+Cut generation started.
+0        2        0        0        NA                   8.5131558937e+01     NA          0.1   
+Cut generation terminated. Time = 0.01
+15       18       14       3        NA                   8.5241901060e+01     NA          0.3   
+28       31       23       4        NA                   8.5257002518e+01     NA          0.3   
+48       51       43       4        NA                   8.5273773296e+01     NA          0.3   
+87       90       78       4        NA                   8.5336121344e+01     NA          0.3   
+154      157      143      4        NA                   8.5336121344e+01     NA          0.4   
+220      223      209      4        NA                   8.5374869090e+01     NA          0.4   
+364      367      337      8        NA                   8.5375584045e+01     NA          0.5   
+652      655      615      10       NA                   8.5472698624e+01     NA          0.6   
+1228     1230     1023     16       NA                   8.5472698624e+01     NA          0.7   
+2236     2213     1449     12       NA                   8.5536359764e+01     NA          0.8   
+3669     3634     2456     20       NA                   8.5605587316e+01     NA          1.0   
+5510     5464     3449     24       8.9505324484e+01     8.5851282705e+01     4.08        1.2   
+7360     7279     4413     22       8.9505324484e+01     8.5926441456e+01     4.00        1.4   
+9227     9120     5358     30       8.9505324484e+01     8.5989855499e+01     3.93        1.6   
+11109    10979    6228     18       8.9505324484e+01     8.6004471943e+01     3.91        1.8   
+12995    12850    7176     27       8.9505324484e+01     8.6132664060e+01     3.77        2.0   
+14893    14726    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.2   
+14906    14737    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.2   
+14921    14749    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.2   
+14946    14770    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.2   
+14958    14781    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.2   
+14970    14793    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.3   
+14994    14810    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.3   
+15020    14831    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.3   
+15043    14845    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.3   
+15060    14856    8060     22       8.9505324484e+01     8.6143602307e+01     3.76        2.3   
+16926    16711    8936     33       8.9505324484e+01     8.6183475050e+01     3.71        2.6   
+18826    18584    9838     29       8.9505324484e+01     8.6193508981e+01     3.70        2.8   
+20684    20424    10796    14       8.9505324484e+01     8.6209452536e+01     3.68        3.0   
+22546    22266    11696    18       8.9505324484e+01     8.6222932914e+01     3.67        3.2   
+24416    24117    12656    23       8.9505324484e+01     8.6237119039e+01     3.65        3.4   
+26301    25992    13585    19       8.9505324484e+01     8.6240849002e+01     3.65        3.6   
+28203    27872    14493    17       8.9505324484e+01     8.6255690789e+01     3.63        3.8   
+30021    29665    15377    24       8.9505324484e+01     8.6263475729e+01     3.62        4.1   
+31939    31555    16299    24       8.9505324484e+01     8.6272932684e+01     3.61        4.3   
+33842    33439    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.5   
+33859    33455    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.6   
+33872    33467    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.6   
+33895    33485    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.6   
+33922    33508    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.6   
+33952    33526    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.6   
+33975    33542    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.6   
+33997    33562    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.6   
+34024    33584    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.6   
+34057    33606    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.7   
+34081    33622    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.7   
+34101    33635    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.7   
+34137    33652    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.7   
+34159    33669    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.7   
+34178    33687    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.7   
+34195    33700    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.7   
+34209    33711    17278    18       8.9505324484e+01     8.6277908272e+01     3.61        4.7   
+36114    35585    18205    19       8.9505324484e+01     8.6283374779e+01     3.60        5.0   
+38051    37504    19168    42       8.9505324484e+01     8.6293213176e+01     3.59        5.2   
+39978    39410    20107    45       8.9505324484e+01     8.6298006058e+01     3.58        5.4   
+41886    41297    21061    34       8.9505324484e+01     8.6303186152e+01     3.58        5.7   
+43837    43215    21958    26       8.9505324484e+01     8.6308514624e+01     3.57        5.9   
+45760    45107    22917    29       8.7623523252e+01     8.6312764789e+01     1.50        6.1   
+An optimal solution satisfying the relative gap tolerance of 3.50e+00(%) has been located.
+The relative gap is 1.50e+00(%).
+
+Objective of best integer solution : 8.762352325172e+01      
+Best objective bound               : 8.631276478858e+01      
+Construct solution objective       : Not employed
+Construct solution # roundings     : 0
+User objective cut value           : 0
+Number of cuts generated           : 29
+  Number of Gomory cuts            : 9
+  Number of CMIR cuts              : 20
+Number of branches                 : 45760
+Number of relaxations solved       : 45107
+Number of interior point iterations: 20
+Number of simplex iterations       : 848117
+Time spend presolving the root     : 0.02
+Time spend in the heuristic        : 0.00
+Time spend in the sub optimizers   : 0.00
+  Time spend optimizing the root   : 0.08
+Mixed integer optimizer terminated. Time: 6.22
+
+Optimizer terminated. Time: 6.26    
+
+Integer solution solution summary
+  Problem status  : PRIMAL_FEASIBLE
+  Solution status : INTEGER_OPTIMAL
+  Primal.  obj: 8.7623523252e+01    nrm: 1e+04    Viol.  con: 0e+00    var: 0e+00    itg: 0e+00  
+Optimizer summary
+  Optimizer                 -                        time: 6.26    
+    Interior-point          - iterations : 0         time: 0.00    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 45107     time: 6.22    
+

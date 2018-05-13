@@ -1,0 +1,124 @@
+ 
+Reading Problem xprsmiqp
+Problem Statistics
+         101 (      0 spare) rows
+         900 (      0 spare) structural columns
+       15630 (      0 spare) non-zero elements
+       79200 quadratic elements in objective
+Global Statistics
+         900 entities        0 sets        0 set members
+Minimizing MIQP xprsmiqp
+Original problem has:
+       101 rows          900 cols        15630 elements       900 globals
+     79200 qobjelem
+Presolved problem has:
+     24535 rows        25319 cols        77726 elements       872 globals
+LP relaxation tightened
+Will try to keep branch and bound tree memory usage below 957.1Gb
+Starting concurrent solve with dual, primal and barrier (142 threads)
+
+                           Concurrent-Solve,   1s
+            Dual                      Primal                     Barrier      
+    objective   dual inf       objective   sum inf         p.obj.     d.obj.  
+ D  416.73270   .0000000 |  p  424.44546   .1249977 |  B  472.56694  293.45974
+------- optimal -------- | ----- interrupted ------ | ----- interrupted ------
+Concurrent statistics:
+      Dual: 772 simplex iterations, 0.34s
+    Primal: 924 simplex iterations, 0.34s
+   Barrier: 5 barrier and 0 simplex iterations, 0.55s
+            Barrier used 142 threads 72 cores, L1\L2 cache: 32K\46080K
+            Barrier used AVX support
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+   772        416.732478      P      0     0        .000000     1
+Dual solved problem
+  772 simplex iterations in 1s
+
+Final objective                         : 4.167324779827633e+02
+  Max primal violation      (abs / rel) :       0.0 /       0.0
+  Max dual violation        (abs / rel) : 3.286e-14 / 3.286e-14
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                 416.871161      0    316      0              159      2
+   2  K                 416.882254      0    611    251              122      3
+   3  K                 416.895198      0    390    571              167      4
+   4  K                 416.896674      0    612    419              132      4
+   5  K                 416.900583      0    443    610              142      5
+   6  K                 416.908776      0    759    429              139      6
+   7  K                 416.919245      0    889    777              124      6
+   8  K                 416.933386      0    526    884              130      7
+   9  K                 416.951464      0    481    541              120      8
+  10  K                 416.960837      0    666    473              136      9
+  11  K                 416.964336      0    482    643              145     11
+  12  K                 416.969537      0    982    479              137     12
+  13  K                 416.986752      0    820    980              162     14
+  14  K                 416.998639      0   1004    815              145     15
+  15  K                 417.004915      0    993    990              166     17
+  16  K                 417.014724      0    783   1008              134     19
+  17  K                 417.022240      0    834    787              153     20
+  18  K                 417.026939      0    953    831              134     23
+  19  K                 417.034387      0    760    964              132     24
+  20  K                 417.038663      0    828   1576              122     25
+  21  G                 417.054139      0    283     10              137     26
+  22  G                 417.068002      0    233    512              155     27
+Heuristic search started
+Heuristic search stopped
+M          500.389704   417.068002      1                 16.65%       0     30
+ 
+Cuts in the matrix         : 98
+Cut elements in the matrix : 5059
+ 
+Starting tree search.
+Deterministic mode with up to 144 running threads and up to 256 tasks.
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1   500.389704   417.070136      1      2      1   16.65%     145     34
+       2   500.389704   417.072718      1      2      3   16.65%     109     36
+       3   500.389704   417.089342      1      4      3   16.65%     114     37
+       4   500.389704   417.089342      1      5      4   16.65%     112     37
+       5   500.389704   417.093502      1      6      4   16.65%     128     38
+       6   500.389704   417.093502      1      6      4   16.65%     140     38
+       7   500.389704   417.093502      1      6      5   16.65%     135     38
+       8   500.389704   417.093502      1      8      4   16.65%     122     39
+       9   500.389704   417.100878      1      8      6   16.64%     133     39
+      10   500.389704   417.100878      1      9      5   16.64%     128     39
+      20   500.389704   417.109697      1     18      5   16.64%     120     41
+      30   500.389704   417.117022      1     27      6   16.64%     146     43
+      40   500.389704   417.117022      1     32      6   16.64%     124     44
+      50   500.389704   417.117022      1     40      7   16.64%     120     46
+      60   500.389704   417.122690      1     45      9   16.64%     125     47
+      70   500.389704   417.122690      1     52     11   16.64%     132     48
+      80   500.389704   417.122690      1     56      8   16.64%     132     49
+      90   500.389704   417.122690      1     59      8   16.64%     120     49
+     100   500.389704   417.122690      1     64      7   16.64%     160     50
+B&B tree size: 46Mb total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     200   500.389704   417.122690      1    135     11   16.64%      96     55
+     300   500.389704   417.122690      1    219     16   16.64%      93     57
+     400   500.389704   417.127611      1    318     19   16.64%     117     60
+     500   500.389704   417.127611      1    418     16   16.64%     123     62
+     600   500.389704   417.127611      1    518     16   16.64%      95     66
+     700   500.389704   417.127611      1    615     13   16.64%     108     68
+     800   500.389704   417.127611      1    710     22   16.64%      81     72
+     900   500.389704   417.127611      1    806     18   16.64%      88     74
+    1000   500.389704   417.127611      1    899     15   16.64%     101     77
+    1100   500.389704   417.127611      1    995     25   16.64%     105     79
+    1200   500.389704   417.127611      1   1098     21   16.64%     130     80
+    1300   500.389704   417.127611      1   1194     34   16.64%      99     82
+    1400   500.389704   417.127611      1   1294     22   16.64%     118     84
+    1500   500.389704   417.127611      1   1392     29   16.64%     120     85
+c   1550   432.271705   417.127611      2   1441     51    3.50%       0     86
+    1600   432.271705   417.127611      2   1489     34    3.50%     127     87
+c   1610   431.565237   417.127611      3   1500     57    3.35%       0     87
+STOPPING - MIPRELSTOP target reached (MIPRELSTOP=0.035  gap=0.0334541).
+ *** Search completed ***     Time:    88 Nodes:       1610
+Number of integer feasible solutions found is 3
+Best integer solution found is   431.565237
+Best bound is   417.127611
+Uncrunching matrix

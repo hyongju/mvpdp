@@ -1,0 +1,78 @@
+
+MOSEK Version 8.0.0.51 (Build date: 2016-12-14 12:53:47)
+Copyright (c) MOSEK ApS, Denmark. WWW: mosek.com
+Platform: Linux/64-X86
+
+Problem
+  Name                   :                 
+  Objective sense        : min             
+  Type                   : LO (linear optimization problem)
+  Constraints            : 1442            
+  Cones                  : 0               
+  Scalar variables       : 309             
+  Matrix variables       : 0               
+  Integer variables      : 273             
+
+Optimizer started.
+Mixed integer optimizer started.
+Threads used: 72
+Presolve started.
+Presolve terminated. Time = 0.03
+Presolved problem: 308 variables, 749 constraints, 2666 non-zeros
+Presolved problem: 0 general integer, 273 binary, 35 continuous
+Clique table size: 34
+BRANCHES RELAXS   ACT_NDS  DEPTH    BEST_INT_OBJ         BEST_RELAX_OBJ       REL_GAP(%)  TIME  
+0        1        0        0        NA                   1.0187846943e+02     NA          0.1   
+Cut generation started.
+0        2        0        0        NA                   1.0187846943e+02     NA          0.1   
+Cut generation terminated. Time = 0.01
+15       18       14       3        NA                   1.0199711021e+02     NA          0.3   
+28       31       27       3        NA                   1.0210540123e+02     NA          0.3   
+54       57       43       3        NA                   1.0219420599e+02     NA          0.4   
+91       94       76       3        NA                   1.0225020808e+02     NA          0.4   
+155      158      128      3        NA                   1.0225020808e+02     NA          0.5   
+213      216      186      3        NA                   1.0231033015e+02     NA          0.5   
+351      354      304      8        NA                   1.0235508327e+02     NA          0.6   
+639      642      572      10       NA                   1.0264126005e+02     NA          0.8   
+1143     1144     966      15       NA                   1.0271396421e+02     NA          1.0   
+2079     2059     1330     24       1.0527667789e+02     1.0281142166e+02     2.34        1.2   
+An optimal solution satisfying the relative gap tolerance of 3.50e+00(%) has been located.
+The relative gap is 2.34e+00(%).
+
+Objective of best integer solution : 1.052766778921e+02      
+Best objective bound               : 1.028114216575e+02      
+Construct solution objective       : Not employed
+Construct solution # roundings     : 0
+User objective cut value           : 0
+Number of cuts generated           : 32
+  Number of Gomory cuts            : 16
+  Number of CMIR cuts              : 16
+Number of branches                 : 2079
+Number of relaxations solved       : 2059
+Number of interior point iterations: 18
+Number of simplex iterations       : 42162
+Time spend presolving the root     : 0.03
+Time spend in the heuristic        : 0.00
+Time spend in the sub optimizers   : 0.00
+  Time spend optimizing the root   : 0.06
+Mixed integer optimizer terminated. Time: 1.20
+
+Optimizer terminated. Time: 1.22    
+
+Integer solution solution summary
+  Problem status  : PRIMAL_FEASIBLE
+  Solution status : INTEGER_OPTIMAL
+  Primal.  obj: 1.0527667789e+02    nrm: 1e+04    Viol.  con: 4e-12    var: 2e-16    itg: 2e-16  
+Optimizer summary
+  Optimizer                 -                        time: 1.22    
+    Interior-point          - iterations : 0         time: 0.00    
+      Basis identification  -                        time: 0.00    
+        Primal              - iterations : 0         time: 0.00    
+        Dual                - iterations : 0         time: 0.00    
+        Clean primal        - iterations : 0         time: 0.00    
+        Clean dual          - iterations : 0         time: 0.00    
+    Simplex                 -                        time: 0.00    
+      Primal simplex        - iterations : 0         time: 0.00    
+      Dual simplex          - iterations : 0         time: 0.00    
+    Mixed integer           - relaxations: 2059      time: 1.20    
+

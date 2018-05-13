@@ -1,0 +1,72 @@
+
+MATLAB/BARON Interface Version: v1.82 [28-October-2016]
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Jinsun Liu at University of Michigan, jinsunl@umich.edu.
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Solving bounding LP
+ Starting multi-start local search
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+          1+            1            30.09     153.046         0.100000E+52
+          1             1            51.21     153.538         0.100000E+52
+          2+            2            81.38     153.538         0.100000E+52
+          3+            2           111.18     153.538         0.100000E+52
+          3+            2           139.47     153.538         0.100000E+52
+          4+            3           169.31     153.733         0.100000E+52
+          4+            3           199.16     153.733         0.100000E+52
+          5+            3           229.06     153.733         0.100000E+52
+          5+            3           258.78     153.733         0.100000E+52
+          6+            4           288.47     153.733         0.100000E+52
+          6+            4           317.57     153.733         0.100000E+52
+          7+            5           346.66     153.733         0.100000E+52
+          7+            5           376.26     153.733         0.100000E+52
+          8+            6           404.84     153.733         0.100000E+52
+          8+            6           433.96     153.733         0.100000E+52
+          9+            7           463.40     153.733         0.100000E+52
+          9+            7           491.76     153.733         0.100000E+52
+         10+            8           517.99     153.733         0.100000E+52
+         10+            8           544.76     153.733         0.100000E+52
+         11+            8           570.86     153.733         0.100000E+52
+         11+            8           598.57     153.733         0.100000E+52
+         12+            9           626.35     153.733         0.100000E+52
+         12+            9           655.94     153.733         0.100000E+52
+         13+            9           685.27     153.733         0.100000E+52
+         14+           10           714.49     153.734         0.100000E+52
+         14+           10           743.57     153.734         0.100000E+52
+         15+           11           772.66     153.734         0.100000E+52
+         15+           11           802.01     153.734         0.100000E+52
+*        16             0           820.46     153.734          158.771    
+         16             0           820.47     153.734          158.771    
+
+ Cleaning up
+
+                         *** Normal completion ***            
+
+ Wall clock time:                   851.02
+ Total CPU time used:               820.47
+
+ Total no. of BaR iterations:      16
+ Best solution found at node:      16
+ Max. no. of nodes in memory:      12
+ 
+ All done
+===========================================================================

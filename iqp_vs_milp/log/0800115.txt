@@ -1,0 +1,133 @@
+ 
+Reading Problem xprsmip
+Problem Statistics
+         896 (      0 spare) rows
+         309 (      0 spare) structural columns
+        2925 (      0 spare) non-zero elements
+Global Statistics
+         273 entities        0 sets        0 set members
+Minimizing MILP xprsmip
+Original problem has:
+       896 rows          309 cols         2925 elements       273 globals
+Presolved problem has:
+       732 rows          307 cols         2616 elements       273 globals
+LP relaxation tightened
+Will try to keep branch and bound tree memory usage below 957.1Gb
+Starting concurrent solve with dual
+
+ Concurrent-Solve,   0s
+            Dual        
+    objective   sum inf 
+ P  94.145057   .0000000
+------- optimal --------
+Concurrent statistics:
+      Dual: 80 simplex iterations, 0.00s
+Optimal solution found
+ 
+   Its         Obj Value      S   Ninf  Nneg        Sum Inf  Time
+    80         94.145057      P      0     0        .000000     0
+Dual solved problem
+  80 simplex iterations in 0s
+
+Final objective                         : 9.414505676629601e+01
+  Max primal violation      (abs / rel) : 2.220e-16 / 1.819e-16
+  Max dual violation        (abs / rel) : 1.630e-08 / 1.630e-08
+  Max complementarity viol. (abs / rel) :       0.0 /       0.0
+All values within tolerances
+
+Starting root cutting & heuristics
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                  94.145057      0     28      0               37      0
+   2  K                  94.145057      0     18     13               37      0
+   3  K                  94.145057      0     18     19               37      0
+   4  K                  94.145057      0     11     16               38      0
+   5  K                  94.145057      0     10     13               36      0
+   6  K                  94.145057      0      7      9               36      0
+   7  K                  94.145057      0      9      8               36      0
+   8  K                  94.145057      0      9      9               36      0
+   9  K                  94.145057      0      7      8               36      0
+  10  K                  94.145057      0      7      8               36      0
+  11  K                  94.145057      0      7      7               36      0
+  12  K                  94.145057      0      7      7               36      0
+  13  K                  94.145057      0      7      7               36      0
+  14  K                  94.145057      0      7      7               36      0
+  15  K                  94.145057      0      7      7               36      0
+  16  K                  94.145057      0      7      7               36      0
+  17  K                  94.145057      0      7      7               36      1
+  18  K                  94.145057      0      7      7               36      1
+  19  K                  94.145057      0      7      7               36      1
+  20  K                  94.145057      0      7     14               36      1
+  21  G                  94.145057      0     12      0               36      1
+  22  G                  94.145057      0      3     17               36      1
+Heuristic search started
+Heuristic search stopped
+ 
+Cuts in the matrix         : 12
+Cut elements in the matrix : 380
+
+Performing root presolve...
+
+Reduced problem has:     740 rows     306 columns      2931 elements
+Presolve dropped   :       4 rows       1 columns        56 elements
+Presolve tightened :        23 elements
+Will try to keep branch and bound tree memory usage below 957.1Gb
+
+Starting root cutting & heuristics
+ 
+ Its Type    BestSoln    BestBound   Sols    Add    Del     Gap     GInf   Time
+   1  K                  94.150021      0     12      5               36      1
+   2  K                  94.152503      0     11     19               36      1
+Heuristic search started
+Heuristic search stopped
+ 
+Cuts in the matrix         : 10
+Cut elements in the matrix : 264
+ 
+Starting tree search.
+Deterministic mode with up to 144 running threads and up to 256 tasks.
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+       1                 94.183450      0      2      1               36      2
+       2                 94.190656      0      3      3               32      2
+       3                 94.190656      0      4      3               28      2
+       4                 94.190656      0      5      4               18      2
+       5                 94.190656      0      5      4               30      2
+       6                 94.190656      0      6      4               24      2
+       7                 94.190656      0      7      4               30      2
+       8                 94.266469      0      8      5               27      2
+       9                 94.266469      0      9      5               22      2
+      10                 94.266469      0     10      5               12      2
+      20                 94.266469      0     20      6               26      2
+      30                 94.266469      0     29      8               26      2
+      40                 94.266469      0     35      8               17      2
+      50                 94.266469      0     41     10               17      2
+      60                 94.266469      0     47      9               27      3
+      70                 94.266469      0     53      9               17      3
+      80                 94.266469      0     60     10               16      3
+      90                 94.266469      0     69     11               22      3
+     101                 94.266469      0     76      7               27      3
+B&B tree size: 1.5Mb total
+ 
+    Node     BestSoln    BestBound   Sols Active  Depth     Gap     GInf   Time
+     202                 94.269154      0    155      9               17      4
+     302                 94.269154      0    235     15               20      4
+     402                 94.269154      0    329     11               23      4
+     502                 94.269154      0    425     16               14      4
+     602                 94.269154      0    524     18               10      4
+     702                 94.269154      0    612     15               18      4
+     802                 94.269154      0    698     25               18      4
+     902                 94.269154      0    788     21               18      4
+    1002                 94.269154      0    872     15               15      4
+    1102                 94.269154      0    952     23               16      4
+    1202                 94.269154      0   1032     30               19      4
+    1302                 94.269154      0   1105     30               16      4
+    1403                 94.269154      0   1166     21               14      4
+    1505                 94.269154      0   1243     31               13      4
+*   1530    97.468893    94.269154      1   1264     26    3.28%       0      5
+STOPPING - MIPRELSTOP target reached (MIPRELSTOP=0.035  gap=0.0328283).
+ *** Search completed ***     Time:     5 Nodes:       1533
+Number of integer feasible solutions found is 1
+Best integer solution found is    97.468893
+Best bound is    94.269154
+Uncrunching matrix

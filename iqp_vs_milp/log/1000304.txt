@@ -1,0 +1,99 @@
+
+MATLAB/BARON Interface Version: v1.82 [28-October-2016]
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Jinsun Liu at University of Michigan, jinsunl@umich.edu.
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Solving bounding LP
+ Starting multi-start local search
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+          1+            1           222.01     182.175         0.100000E+52
+          1+            1           286.40     182.175         0.100000E+52
+          1+            1           314.96     182.175         0.100000E+52
+          1+            1           350.26     182.175         0.100000E+52
+          1+            1           373.73     182.175         0.100000E+52
+          1+            1           403.28     182.175         0.100000E+52
+          1+            1           431.88     182.175         0.100000E+52
+          1+            1           460.70     182.175         0.100000E+52
+          1+            1           492.95     182.175         0.100000E+52
+          1+            1           523.83     182.175         0.100000E+52
+          1+            1           558.42     182.175         0.100000E+52
+          1+            1           589.58     182.175         0.100000E+52
+          1+            1           618.10     182.175         0.100000E+52
+          1+            1           647.52     182.175         0.100000E+52
+          1+            1           677.59     182.175         0.100000E+52
+          1+            1           707.55     182.175         0.100000E+52
+          1+            1           737.29     182.175         0.100000E+52
+          1+            1           767.65     182.175         0.100000E+52
+          1+            1           796.96     182.175         0.100000E+52
+          1+            1           827.76     182.175         0.100000E+52
+          1+            1           858.73     182.175         0.100000E+52
+          1+            1           889.68     182.175         0.100000E+52
+          1+            1           920.58     182.175         0.100000E+52
+          1+            1           950.42     182.175         0.100000E+52
+          1+            1           980.61     182.175         0.100000E+52
+          1+            1          1012.13     182.175         0.100000E+52
+          1+            1          1042.45     182.175         0.100000E+52
+          1+            1          1072.61     182.175         0.100000E+52
+          1+            1          1104.07     182.175         0.100000E+52
+          1+            1          1135.15     182.175         0.100000E+52
+          1+            1          1164.48     182.175         0.100000E+52
+          1+            1          1194.74     182.175         0.100000E+52
+          1+            1          1225.26     182.175         0.100000E+52
+          1+            1          1254.82     182.175         0.100000E+52
+          1+            1          1285.80     182.175         0.100000E+52
+          1+            1          1316.36     182.175         0.100000E+52
+          1+            1          1344.79     182.175         0.100000E+52
+          1+            1          1373.99     182.175         0.100000E+52
+          1+            1          1404.74     182.175         0.100000E+52
+          1+            1          1429.64     182.175         0.100000E+52
+          1+            1          1460.68     182.175         0.100000E+52
+          1+            1          1491.39     182.175         0.100000E+52
+          1+            1          1521.50     182.175         0.100000E+52
+          1+            1          1551.45     182.175         0.100000E+52
+          1+            1          1581.02     182.175         0.100000E+52
+          1+            1          1610.94     182.175         0.100000E+52
+          1+            1          1640.20     182.175         0.100000E+52
+          1+            1          1670.68     182.175         0.100000E+52
+          1+            1          1699.68     182.175         0.100000E+52
+          1+            1          1729.16     182.175         0.100000E+52
+          1+            1          1759.16     182.175         0.100000E+52
+          1+            1          1789.40     182.175         0.100000E+52
+          1+            1          1816.17     182.175         0.100000E+52
+          1+            1          1841.24     182.175         0.100000E+52
+          1+            1          1868.30     182.175         0.100000E+52
+*         1             0          1882.57     182.175          186.373    
+          1             0          1882.57     182.175          186.373    
+
+ Cleaning up
+
+                         *** Normal completion ***            
+
+ Wall clock time:                  2023.38
+ Total CPU time used:              1882.58
+
+ Total no. of BaR iterations:       1
+ Best solution found at node:       1
+ Max. no. of nodes in memory:       1
+ 
+ All done
+===========================================================================

@@ -1,0 +1,61 @@
+
+MATLAB/BARON Interface Version: v1.82 [28-October-2016]
+===========================================================================
+ BARON version 17.8.9. Built: LNX-64 Wed Aug 9 15:54:55 EDT 2017 
+
+ If you use this software, please cite:
+ Tawarmalani, M. and N. V. Sahinidis, A polyhedral
+ branch-and-cut approach to global optimization,
+ Mathematical Programming, 103(2), 225-249, 2005.
+
+ BARON is a product of The Optimization Firm, LLC. http://www.minlp.com/
+ Parts of the BARON software were created at the
+ University of Illinois at Urbana-Champaign.
+===========================================================================
+ Licensee: Jinsun Liu at University of Michigan, jinsunl@umich.edu.
+ Unable to find/load CPLEX library libcplex.so: cannot open shared object file: No such file or directory
+ Unable to find/load CPLEX library libcplex1270.so: cannot open shared object file: No such file or directory
+ Changing option LPSol to 8 (CLP) and continuing.
+ This BARON run may utilize the following subsolver(s)
+ For LP/MIP: CLP/CBC                                         
+ For NLP: IPOPT, FILTERSD, FILTERSQP
+===========================================================================
+ Doing local search
+ Solving bounding LP
+ Starting multi-start local search
+ Done with local search
+===========================================================================
+  Iteration    Open nodes         Time (s)    Lower bound      Upper bound
+          1+            1           492.52     266.894         0.100000E+52
+          1+            1           693.55     266.894         0.100000E+52
+          1+            1           720.03     266.894         0.100000E+52
+          1+            1           756.83     266.894         0.100000E+52
+          1+            1           783.71     266.894         0.100000E+52
+          1+            1           811.78     266.894         0.100000E+52
+          1+            1           845.06     266.894         0.100000E+52
+          1+            1           882.47     266.894         0.100000E+52
+          1+            1           920.46     266.894         0.100000E+52
+          1+            1           951.54     266.894         0.100000E+52
+          1+            1           986.86     266.894         0.100000E+52
+          1+            1          1017.02     266.894         0.100000E+52
+          1+            1          1048.44     266.894         0.100000E+52
+          1+            1          1081.81     266.894         0.100000E+52
+          1+            1          1110.21     266.894         0.100000E+52
+          1+            1          1143.28     266.894         0.100000E+52
+          1+            1          1170.58     266.894         0.100000E+52
+*         1             0          1201.21     266.894          272.652    
+          1             0          1201.22     266.894          272.652    
+
+ Cleaning up
+
+                         *** Normal completion ***            
+
+ Wall clock time:                  1287.56
+ Total CPU time used:              1201.23
+
+ Total no. of BaR iterations:       1
+ Best solution found at node:       1
+ Max. no. of nodes in memory:       1
+ 
+ All done
+===========================================================================
