@@ -2,9 +2,9 @@ The codes in this repo were used to generate the results for our paper (add arxi
 
 ### Prerequisites
 
-* MATLAB R2017a
+* MATLAB (R2017a)
 * CPLEX (12.7.1), GUROBI (7.5.1), MOSEK (8.0.0), BARON (17), XPRESS (18.1)
-* YALMIP R20171121 (<https://yalmip.github.io>)
+* YALMIP (R20171121) (<https://yalmip.github.io>)
 
 
 
