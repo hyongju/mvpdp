@@ -32,5 +32,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ### Acknowledgement
 
-* plot_google_map.m (https://github.com/zoharby/plot_google_map) was used in some part of the code to display google map images
+* "plot_google_map.m" (https://github.com/zoharby/plot_google_map) was used in some part of the code to display google map images
 * 
