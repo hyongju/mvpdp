@@ -33,4 +33,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 ### Acknowledgement
 
 * "plot_google_map.m" by Zohar Bar-Yehuda (https://github.com/zoharby/plot_google_map) was used in some part of the code to display google map images
-* "lldistkm" by M. Sohrabinia (https://www.mathworks.com/matlabcentral/fileexchange/38812-latlon-distance?focused=5250973&tab=function) was used in some part of the code to convert the shortest distance between any two GPS locations to kilometer 
+* "lldistkm.m" by M. Sohrabinia (https://www.mathworks.com/matlabcentral/fileexchange/38812-latlon-distance?focused=5250973&tab=function) was used in some part of the code to convert the shortest distance between any two GPS locations to kilometer 
