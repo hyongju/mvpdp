@@ -1,4 +1,4 @@
-This codes were used to generate the results for our paper (add arxiv link of the paper)
+The codes in this repo were used to generate the results for our paper (add arxiv link of the paper)
 
 ### Prerequisites
 
