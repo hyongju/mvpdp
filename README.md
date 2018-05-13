@@ -5,7 +5,7 @@ One Paragraph of project description goes here
 
 * MATLAB R2017a
 * CPLEX 12.7
-* YALMIP R20171121
+* YALMIP R20171121 (<https://yalmip.github.io>)
 
 
 
