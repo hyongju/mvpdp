@@ -8,10 +8,12 @@ The codes in this repo were used to generate the results for our paper (add arxi
 
 
 
-### Running the code
+### Description
 
 ```
-Give the example
+./iqp vs milp
+./manhattan
+./mvpdp_small
 ```
 
 
