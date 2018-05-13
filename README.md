@@ -15,7 +15,7 @@ The codes in this repo were used to generate the results for our paper (add arxi
 ./iqp_vs_milp : benchmark comparison of iqp against milp on solving svpdp with 8-50 customers within 3.5% optimality gap
 ./svpdp_manhattan : solve svpdp for real-world roadmap (openstreetmaps.org) and demands (www.nyc.gov) 
 ```
-
+where refer to mvpdp as the multi-vehicle pickup and delivery problem, svpdp as the single-vehicle pickup and delivery problem, to iqp as the integer quadratic programming, to milp as the mixed integer linear programming
 
 ### Authors
 
