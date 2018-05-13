@@ -8,7 +8,7 @@ The codes in this repo were used to generate the results for our paper (add arxi
 
 
 
-### Description
+### Folder Description
 
 ```
 ./mvpdp_small : solve mvpdp with 4-7 customers to optimality
