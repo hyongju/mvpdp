@@ -11,9 +11,9 @@ The codes in this repo were used to generate the results for our paper (add arxi
 ### Description
 
 ```
-./iqp vs milp
-./manhattan
-./mvpdp_small
+./mvpdp_small : solve mvpdp with 4-7 customers to optimality
+./iqp_vs_milp : benchmark comparison of iqp against milp on solving svpdp with 8-50 customers within 3.5% optimality gap
+./svpdp_manhattan : solve svpdp for real-world roadmap and demands  
 ```
 
 
