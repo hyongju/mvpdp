@@ -17,7 +17,7 @@ The codes in this repo were used to generate the results for our paper (add arxi
 ```
 where refer to mvpdp as the multi-vehicle pickup and delivery problem, svpdp as the single-vehicle pickup and delivery problem, to iqp as the integer quadratic programming, to milp as the mixed integer linear programming
 
-See run.m in each folder to find more detail on its contents
+See run.m in each folder to learn more detail on its contents
 
 ### Authors
 
