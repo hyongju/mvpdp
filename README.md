@@ -1,7 +1,6 @@
-One Paragraph of project description goes here
+This codes were used to generate the results for our paper
 
-
-## Prerequisites
+### Prerequisites
 
 * MATLAB R2017a
 * CPLEX 12.7
@@ -9,23 +8,23 @@ One Paragraph of project description goes here
 
 
 
-## Running the code
+### Running the code
 
 ```
 Give the example
 ```
 
 
-## Authors
+### Authors
 
 * **Hyongju Park** 
 * **Jinsun Liu**
 
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
+### Acknowledgments
 
 * 
