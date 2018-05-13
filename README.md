@@ -34,5 +34,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * "plot_google_map.m" by Zohar Bar-Yehuda (https://github.com/zoharby/plot_google_map) was used in some part of the code to display google map images
 * "lldistkm.m" by M. Sohrabinia (https://www.mathworks.com/matlabcentral/fileexchange/38812-latlon-distance?focused=5250973&tab=function) was used in some part of the code to convert the shortest distance between any two GPS locations to kilometer
-% The road map of Manhattan, NYC, NY, USA was downloaded from https://www.openstreetmap.org
-% The 2013 yellow cab trip data for Manhattan used in the code was downloaded from https://opendata.cityofnewyork.us
+* The road map of Manhattan, NYC, NY, USA was downloaded from https://www.openstreetmap.org
+* The 2013 yellow cab trip data for Manhattan used in the code was downloaded from https://opendata.cityofnewyork.us
